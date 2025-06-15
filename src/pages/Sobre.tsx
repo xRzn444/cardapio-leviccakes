@@ -145,7 +145,7 @@ const Sobre: React.FC = () => {
                   <h4 className="font-bold text-confeitaria-chocolate">Entre em Contato</h4>
                   <div className="space-y-3">
                     <p className="text-confeitaria-marrom">
-                      <strong>Telefone:</strong> (11) 99999-9999
+                      <strong>Telefone:</strong> (31) 99195-7486
                     </p>
                     <p className="text-confeitaria-marrom">
                       <strong>Email:</strong> contato@levicakes.com.br
