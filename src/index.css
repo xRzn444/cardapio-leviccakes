@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 250 245 242;
+    --foreground: 74 44 23;
+
+    --card: 255 255 255;
+    --card-foreground: 74 44 23;
+
+    --popover: 255 255 255;
+    --popover-foreground: 74 44 23;
+
+    --primary: 232 180 203;
+    --primary-foreground: 74 44 23;
+
+    --secondary: 245 230 211;
+    --secondary-foreground: 74 44 23;
+
+    --muted: 245 230 211;
+    --muted-foreground: 107 68 35;
+
+    --accent: 232 180 203;
+    --accent-foreground: 74 44 23;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 232 180 203;
+    --input: 245 230 211;
+    --ring: 232 180 203;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 250 245 242;
+    --sidebar-foreground: 74 44 23;
+    --sidebar-primary: 232 180 203;
+    --sidebar-primary-foreground: 74 44 23;
+    --sidebar-accent: 245 230 211;
+    --sidebar-accent-foreground: 74 44 23;
+    --sidebar-border: 232 180 203;
+    --sidebar-ring: 232 180 203;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-confeitaria-creme text-confeitaria-chocolate font-inter;
+  }
+
+  h1, h2, h3 {
+    @apply font-dancing;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-confeitaria-rosa hover:bg-confeitaria-rosa/90 text-confeitaria-chocolate font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply bg-confeitaria-bege hover:bg-confeitaria-bege/90 text-confeitaria-chocolate font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-md;
+  }
+  
+  .card-confeitaria {
+    @apply bg-white rounded-xl shadow-lg p-6 border border-confeitaria-rosa/20 hover:shadow-xl transition-all duration-300;
+  }
+  
+  .navbar-sticky {
+    @apply sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-confeitaria-rosa/20;
+  }
+}
