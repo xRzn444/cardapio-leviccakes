@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ cartItemsCount, onCartClick }) => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="public/arquivos/Logos/logo1.png" 
+              src="/arquivos/Logos/logo1.png" 
               alt="Levic Cakes Logo" 
               className="h-14 w-26 rounded-full"
             />

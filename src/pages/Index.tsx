@@ -13,21 +13,21 @@ const Index: React.FC<HomeProps> = ({ onAddToCart }) => {
       id: '1',
       name: 'Cone ouro branco',
       price: 12.90,
-      image: 'public/arquivos/produtos/cone/cone-ouro-branco.jpg',
+      image: '/arquivos/produtos/cone/cone-ouro-branco.jpg',
       description: 'Cone trufado de chocolate branco e chocolate meio amargo Recheio de chocolate gourmet e recheio cremoso de ouro branco'
     },
     {
       id: '2',
       name: 'Bolo de pote - Prestígio com chocolate Gourmet',
       price: 14.90,
-      image: 'public/arquivos/produtos/bolo-de-pote/pote-prestigio-chocolate.jpg',
+      image: '/arquivos/produtos/bolo-de-pote/pote-prestigio-chocolate.jpg',
       description: 'Deliciosa massa de chocolate molhadinha, com recheio de Prestígio de coco e creme de chocolate gourmet, finalização com coco ralado!'
     },
     {
       id: '3',
       name: 'Açaí tradicional - 500ml',
       price: 16.00,
-      image: 'public/arquivos/produtos/acai/acai-tradicional-500ml.jpg',
+      image: '/arquivos/produtos/acai/acai-tradicional-500ml.jpg',
       description: 'Delicioso açaí cremoso com acréscimo de leite condensado, leite em pó ,paçoca, banana e granola.'
     }
   ];
