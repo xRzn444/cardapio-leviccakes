@@ -13,21 +13,21 @@ const Index: React.FC<HomeProps> = ({ onAddToCart }) => {
       id: '1',
       name: 'Cone ouro branco',
       price: 12.90,
-      image: 'arquivos/produtos/cone/cone-ouro-branco.jpg',
+      image: 'public/arquivos/produtos/cone/cone-ouro-branco.jpg',
       description: 'Cone trufado de chocolate branco e chocolate meio amargo Recheio de chocolate gourmet e recheio cremoso de ouro branco'
     },
     {
       id: '2',
       name: 'Bolo de pote - Prestígio com chocolate Gourmet',
       price: 14.90,
-      image: 'arquivos/produtos/bolo-de-pote/pote-prestigio-chocolate.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-prestigio-chocolate.jpg',
       description: 'Deliciosa massa de chocolate molhadinha, com recheio de Prestígio de coco e creme de chocolate gourmet, finalização com coco ralado!'
     },
     {
       id: '3',
       name: 'Açaí tradicional - 500ml',
       price: 16.00,
-      image: 'arquivos/produtos/acai/acai-tradicional-500ml.jpg',
+      image: 'public/arquivos/produtos/acai/acai-tradicional-500ml.jpg',
       description: 'Delicioso açaí cremoso com acréscimo de leite condensado, leite em pó ,paçoca, banana e granola.'
     }
   ];
@@ -53,51 +53,49 @@ const Index: React.FC<HomeProps> = ({ onAddToCart }) => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-confeitaria-creme to-confeitaria-bege">
-        <div className="container mx-auto px-4 py-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 animate-fade-in">
-              <h1 className="text-5xl lg:text-6xl font-dancing font-bold text-confeitaria-chocolate leading-tight">
-                Levic Cakes
-              </h1>
-              <h2 className="text-2xl lg:text-3xl font-dancing text-confeitaria-marrom">
-                Doceria & Cafeteria
-              </h2>
-              <p className="text-xl text-confeitaria-chocolate font-medium">
-                A vida com mais sabor!
-              </p>
-              <p className="text-lg text-confeitaria-marrom leading-relaxed">
-                Delícias artesanais feitas com amor e ingredientes selecionados. 
-                Cada mordida é uma experiência única que aquece o coração.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link to="/cardapio" className="btn-primary text-center">
-                  Ver Cardápio
-                </Link>
-                <a 
-                  href="https://wa.me/5531991957486" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="btn-secondary text-center"
-                >
-                  Fazer Pedido
-                </a>
-              </div>
-            </div>
-            
-            <div className="relative">
-              <div className="rounded-full bg-confeitaria-rosa/20 p-8 animate-fade-in">
-                <img
-                  src="arquivos/Logos/logo1.png"
-                  alt="Levic Cakes Logo"
-                  className="w-full max-w-md mx-auto rounded-full shadow-2xl"
-                />
-              </div>
-            </div>
-          </div>
+      <section className="relative bg-gradient-to-br from-confeitaria-creme to-confeitaria-bege overflow-hidden">
+  <div className="w-full flex flex-col lg:flex-row min-h-[400px]">
+    {/* Imagem à esquerda, só em telas grandes */}
+    <div className="relative w-full lg:w-[40%] min-h-[400px] h-full hidden lg:block">
+      <img
+        src="/arquivos/Fotos/Leni.png"
+        alt="Levic Cakes"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+    {/* Texto centralizado */}
+    <div className="flex flex-col justify-center items-center w-full lg:w-[60%] px-8 py-12 z-10">
+      <div className="w-full max-w-2xl">
+        <h1 className="text-5xl lg:text-6xl font-dancing font-bold text-confeitaria-chocolate leading-tight text-center">
+          Levic Cakes
+        </h1>
+        <h2 className="text-2xl lg:text-3xl font-dancing text-confeitaria-marrom text-center">
+          Doceria & Cafeteria
+        </h2>
+        <p className="text-xl text-confeitaria-chocolate font-medium text-center">
+          A vida com mais sabor!
+        </p>
+        <p className="text-lg text-confeitaria-marrom leading-relaxed text-center my-6">
+          Delícias artesanais feitas com amor e ingredientes selecionados. 
+          Cada mordida é uma experiência única que aquece o coração.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+          <Link to="/cardapio" className="btn-primary text-center">
+            Ver Cardápio
+          </Link>
+          <a 
+            href="https://wa.me/5531991957486" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-secondary text-center"
+          >
+            Fazer Pedido
+          </a>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Produtos em Destaque */}
       <section className="py-16 bg-white">

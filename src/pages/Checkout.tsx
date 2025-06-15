@@ -192,7 +192,7 @@ const Checkout: React.FC<CheckoutProps> = ({ cartItems, onClearCart }) => {
                     <MapPin className="mr-3 text-confeitaria-chocolate" size={20} />
                     <div>
                       <div className="font-medium text-confeitaria-chocolate">Retirar na Loja</div>
-                      <div className="text-sm text-confeitaria-marrom">Rua das Delícias, 123 - Centro</div>
+                      <div className="text-sm text-confeitaria-marrom">R. Santa Maria, 20 - Pedra Azul, Contagem</div>
                     </div>
                   </label>
 

@@ -43,13 +43,7 @@ const Sobre: React.FC = () => {
                   className="w-full h-80 object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-confeitaria-rosa rounded-2xl p-6 shadow-lg">
-                <img
-                  src="arquivos/Logos/logo1.png" 
-                  alt="Levic Cakes Logo" 
-                  className="h-20 w-28 rounded-full"
-                />
-              </div>
+              
             </div>
           </div>
         </section>

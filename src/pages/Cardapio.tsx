@@ -45,7 +45,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de pote - Chocolate gourmet com maracujá',
       description: 'Deliciosa massa de chocolate cacau 50% molhadinha com chocolate trufado e creme de maracujá gourmet, finalização com maracujá em cima! 250 ml',
       price: 14.99,
-      image: 'arquivos/produtos/bolo-de-pote/pote-chocolate-maracuja.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-chocolate-maracuja.jpg',
       category: 'bolo-de-pote'
     },
     {
@@ -53,7 +53,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de pote - Chocolatudo',
       description: 'Deliciosa  massa de chocolate  molhadinha, com duas  camadas de recheio  chocolate gourmet,  finalização com raspa de chocolate! 250ml',
       price: 14.99,
-      image: 'arquivos/produtos/bolo-de-pote/pote-chocolatudo.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-chocolatudo.jpg',
       category: 'bolo-de-pote'
     },
     {
@@ -61,7 +61,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de pote - Ninho trufado com Chocolate branco, massa branca',
       description: 'Deliciosa massa branca molhadinha com recheio de creme de Ninho Trufado e recheio de Chocolate Gourmet Branco, finalização com raspas de Chocolate branco! 250ml',
       price: 14.99,
-      image: 'arquivos/produtos/bolo-de-pote/pote-ninho-chocolate-branco-massa-branca.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-ninho-chocolate-branco-massa-branca.jpg',
       category: 'bolo-de-pote'
     },
     {
@@ -69,7 +69,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de pote - Ninho trufado com Chocolate, massa de chocolate',
       description: 'Deliciosa massa de chocolate molhadinha, com recheio de Creme de Ninho trufado e Chocolate gourmet, finalização com raspas de Chocolate! 250ml',
       price: 14.99,
-      image: 'arquivos/produtos/bolo-de-pote/pote-ninho-chocolate-massa-chocolate.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-ninho-chocolate-massa-chocolate.jpg',
       category: 'bolo-de-pote'
     },
     {
@@ -77,7 +77,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de pote - Ninho trufado com Maracujá, massa de chocolate',
       description: 'Deliciosa massa de chocolate molhadinha, creme de Ninho trufado e creme de maracujá gourmet, finalização com maracujá! 250 ml',
       price: 14.99,
-      image: 'arquivos/produtos/bolo-de-pote/pote-ninho-maracuja-massa-chocolate.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-ninho-maracuja-massa-chocolate.jpg',
       category: 'bolo-de-pote'
     },
     {
@@ -85,7 +85,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de pote - Prestígio com chocolate Gourmet',
       description: 'Deliciosa massa de chocolate molhadinha, com recheio de Prestígio de coco e creme de chocolate gourmet, finalização com coco ralado! 250 ml',
       price: 14.99,
-      image: 'arquivos/produtos/bolo-de-pote/pote-prestigio-chocolate.jpg',
+      image: 'public/arquivos/produtos/bolo-de-pote/pote-prestigio-chocolate.jpg',
       category: 'bolo-de-pote'
     },
      
@@ -95,7 +95,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de cenoura caseiro',
       description: 'Uma deliciosa fatia de bolo de cenoura com chocolate',
       price: 7.50,
-      image: 'arquivos/produtos/bolos-fatias/bolo-cenoura-caseiro.jpg',
+      image: 'public/arquivos/produtos/bolos-fatias/bolo-cenoura-caseiro.jpg',
       category: 'bolo-fatia'
     },
     {
@@ -103,7 +103,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo gelado de chocolate',
       description: 'Delicioso bolo de Chocolate feito com massa de chocolate e recheio cremoso de chocolate.',
       price: 15.00,
-      image: 'arquivos/produtos/bolos-fatias/bolo-gelado-chocolate.jpg',
+      image: '/arquivos/produtos/bolos-fatias/bolo-gelado-chocolate.jpg',
       category: 'bolo-fatia'
     },
     {
@@ -111,7 +111,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de Ninho com chocolate',
       description: 'Deliciosa massa de chocolate, com recheio cremoso de Ninho com chocolate.',
       price: 15.00,
-      image: 'arquivos/produtos/bolos-fatias/bolo-ninho-chocolate.jpg',
+      image: '/arquivos/produtos/bolos-fatias/bolo-ninho-chocolate.jpg',
       category: 'bolo-fatia'
     },
     {
@@ -119,7 +119,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Bolo de Ninho com morango',
       description: 'Massa fofinha branca, com recheio de ninho e pedaços de morango.',
       price: 15.00,
-      image: 'arquivos/produtos/bolos-fatias/bolo-ninho-morango.jpg',
+      image: '/arquivos/produtos/bolos-fatias/bolo-ninho-morango.jpg',
       category: 'bolo-fatia'
     },
    
@@ -129,7 +129,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Torta de Abacaxi com Ninho - 500g',
       description: 'Deliciosa torta de Abacaxi com Recheio de Ninho trufado, pedaços de abacaxi e biscoito maizena. Finalização com abacaxi e raspa de chocolate branco! ',
       price: 25.90,
-      image: 'arquivos/produtos/tortas/torta-abacaxi-ninho.jpg',
+      image: 'public/arquivos/produtos/tortas/torta-abacaxi-ninho.jpg',
       category: 'tortas'
     },
     {
@@ -137,7 +137,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Torta de Limão - 200ml',
       description: 'Tortinha de limão com um recheio super cremoso e delicioso, com o gostinho de limão! ',
       price: 10.90,
-      image: 'arquivos/produtos/tortas/torta-limão.jpg',
+      image: 'public/arquivos/produtos/tortas/torta-limão.jpg',
       category: 'tortas'
     },
     {
@@ -145,7 +145,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Torta de Abacaxi - 250ml',
       description: 'Deliciosa torta de Abacaxi com Recheio de Ninho trufado, pedaços de abacaxi e biscoito maizena. Finalização com abacaxi e raspa de chocolate branco! ',
       price: 16.99,
-      image: 'arquivos/produtos/tortas/torta-abacaxi.jpg',
+      image: 'public/arquivos/produtos/tortas/torta-abacaxi.jpg',
       category: 'tortas'
     },
     
@@ -155,7 +155,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Empadão de Frango - 250g',
       description: 'Uma delicioco empadão de frango, com recheio de frango com milho. Finalização com tempero especial e queijo parmesão!',
       price: 9.90,
-      image: 'arquivos/produtos/salgados/empadao-de-frango.jpg',
+      image: 'public/arquivos/produtos/salgados/empadao-de-frango.jpg',
       category: 'salgados'
     },
     
@@ -165,7 +165,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Brownie recheado - Chocolate',
       description: 'Um delicioso brownie recheado com Chocolate gourmet!',
       price: 9.90,
-      image: 'arquivos/produtos/brownie/brownie-chocolate.jpg',
+      image: 'public/arquivos/produtos/brownie/brownie-chocolate.jpg',
       category: 'brownie'
     },
     {
@@ -173,7 +173,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Brownie recheado - Ninho com Nutella',
       description: 'Um delicioso brownie recheado com Ninho e Nutella!',
       price: 12.00,
-      image: 'arquivos/produtos/brownie/brownie-ninho-nutella.jpg',
+      image: 'public/arquivos/produtos/brownie/brownie-ninho-nutella.jpg',
       category: 'brownie'
     },
     
@@ -183,7 +183,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Cone - Chocolatudo',
       description: 'Cone trufado com chocolate meio amargo e recheio de chocolate gourmet',
       price: 11.90,
-      image: 'arquivos/produtos/cone/cone-chocolatudo.jpg',
+      image: 'public/arquivos/produtos/cone/cone-chocolatudo.jpg',
       category: 'cone'
     },
     {
@@ -191,7 +191,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Cone - Ninho com chocolate',
       description: 'Cone trufado com Ninho e chocolate gourmet',
       price: 11.90,
-      image: 'arquivos/produtos/cone/cone-ninho-chocolate.jpg',
+      image: 'public/arquivos/produtos/cone/cone-ninho-chocolate.jpg',
       category: 'cone'
     },
     {
@@ -199,7 +199,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Cone - Ouro branco',
       description: 'Cone trufado de chocolate branco e chocolate meio amargo, recheio de chocolate gourmet e ouro branco',
       price: 12.90,
-      image: 'arquivos/produtos/cone/cone-ouro-branco.jpg',
+      image: 'public/arquivos/produtos/cone/cone-ouro-branco.jpg',
       category: 'cone'
     },
     {
@@ -207,7 +207,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Cone - Prestígio',
       description: 'Delicioso cone trufado com recheio de coco cremoso e chocolate gourmet.',
       price: 12.00,
-      image: 'arquivos/produtos/cone/cone-prestigio.jpg',
+      image: 'public/arquivos/produtos/cone/cone-prestigio.jpg',
       category: 'cone'
     },
     
@@ -217,7 +217,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Copo da felicidade - Ninho com morango e brownie - 200ml',
       description: 'Copo da felicidade com recheio de Ninho, morango, brownie e chocolate!',
       price: 19.00,
-      image: 'arquivos/produtos/copo-da-felicidade/copo-ninho-morango-brownie.jpg',
+      image: 'public/arquivos/produtos/copo-da-felicidade/copo-ninho-morango-brownie.jpg',
       category: 'copo-felicidade'
     },
     {
@@ -225,7 +225,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Copo da felicidade - Oreo e Brownie - 200ml',
       description: 'Copo da felicidade de Oreo com Brownie feito Primeira camada de Recheio Oreo cremoso trufado , Brownie Camada de Recheio Chocolate Preto Gourmet Camada de Recheio chocolate Branco trufado . Finalização biscoito Oreo brownie e raspa de chocolate branco.',
       price: 19.00,
-      image: 'arquivos/produtos/copo-da-felicidade/copo-oreo-brownie.jpg',
+      image: 'public/arquivos/produtos/copo-da-felicidade/copo-oreo-brownie.jpg',
       category: 'copo-felicidade'
     },
     {
@@ -233,7 +233,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Copo da felicidade - Ouro branco e Brownie - 200ml',
       description: 'Copo da felicidade feito Com uma camada de Ninho Trufado Brownie, Ouro Branco Uma camada de chocolate preto gourmet Uma camada de chocolate branco trufado. Finalização com Ouro Branco , Brownie e raspa de chocolate branco.',
       price: 19.00,
-      image: 'arquivos/produtos/copo-da-felicidade/copo-ouro-branco-brownie.jpg',
+      image: 'public/arquivos/produtos/copo-da-felicidade/copo-ouro-branco-brownie.jpg',
       category: 'copo-felicidade'
     },
     
@@ -243,7 +243,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Trufa de chocolate gourmet',
       description: 'Trufa com recheio super cremoso de Chocolate gourmet e casquinha de chocolate meio amargo!',
       price: 5.00,
-      image: 'arquivos/produtos/trufas/trufa-chocolate.jpg',
+      image: 'public/arquivos/produtos/trufas/trufa-chocolate.jpg',
       category: 'trufas'
     },
     {
@@ -251,7 +251,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Trufa de Ninho com chocolate gourmet',
       description: 'Deliciosa trufa de chocolate meio amargo com recheio de Ninho e Chocolate Gourmet!',
       price: 5.00,
-      image: 'arquivos/produtos/trufas/trufa-ninho-chocolate.jpg',
+      image: 'public/arquivos/produtos/trufas/trufa-ninho-chocolate.jpg',
       category: 'trufas'
     },
     {
@@ -259,7 +259,7 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Trufa Sensação',
       description: 'Deliciosa trufa feita com chocolate ao leite, recheio de chocolate gourmet e moranguinho!',
       price: 5.00,
-      image: 'arquivos/produtos/trufas/trufa-sensacao.jpg',
+      image: 'public/arquivos/produtos/trufas/trufa-sensacao.jpg',
       category: 'trufas'
     },
 
@@ -269,27 +269,11 @@ const Cardapio: React.FC<CardapioProps> = ({ onAddToCart }) => {
       name: 'Açaí tradicional',
       description: 'Delicioso açaí cremoso com acréscimo de leite condensado, leite em pó ,paçoca, banana e granola.',
       price: 16.00,
-      image: 'arquivos/produtos/acai/acai-tradicional-500ml.jpg',
+      image: 'public/arquivos/produtos/acai/acai-tradicional-500ml.jpg',
       category: 'acai'     
     },
     
     // Bebidas
-    {
-      id: '2222',
-      name: 'Café Expresso',
-      description: 'Café expresso encorpado e aromático',
-      price: 5.00,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
-      category: 'bebidas'
-    },
-    {
-      id: '222',
-      name: 'Chocolate Quente',
-      description: 'Chocolate quente cremoso com chantilly',
-      price: 8.00,
-      image: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400&h=300&fit=crop',
-      category: 'bebidas'
-    }
   ];
 
   const filteredProducts = products.filter(product => {
